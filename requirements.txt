@@ -1,0 +1,21 @@
+
+
+# --- core graph-learning stack (always required) -----------------------
+torch>=1.10
+torch-geometric>=2.0
+torch-scatter
+lark
+numpy
+pandas
+networkx
+matplotlib
+tqdm
+scikit-learn
+
+# --- code-clone backbones only -----------------------------------------
+transformers>=4.20
+tree-sitter
+javalang
+pycparser
+gensim
+anytree
